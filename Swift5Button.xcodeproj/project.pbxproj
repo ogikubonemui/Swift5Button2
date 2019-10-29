@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		312A8A7F2368430800E020EE /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312A8A7E2368430800E020EE /* NextViewController.swift */; };
 		312DCC74236820BF000D0BFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312DCC73236820BF000D0BFC /* AppDelegate.swift */; };
 		312DCC76236820BF000D0BFC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312DCC75236820BF000D0BFC /* SceneDelegate.swift */; };
 		312DCC78236820BF000D0BFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312DCC77236820BF000D0BFC /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		312A8A7E2368430800E020EE /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 		312DCC70236820BF000D0BFC /* Swift5Button.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift5Button.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		312DCC73236820BF000D0BFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		312DCC75236820BF000D0BFC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				312DCC75236820BF000D0BFC /* SceneDelegate.swift */,
 				312DCC77236820BF000D0BFC /* ViewController.swift */,
 				312DCC79236820BF000D0BFC /* Main.storyboard */,
+				312A8A7E2368430800E020EE /* NextViewController.swift */,
 				312DCC7C236820C1000D0BFC /* Assets.xcassets */,
 				312DCC7E236820C1000D0BFC /* LaunchScreen.storyboard */,
 				312DCC81236820C1000D0BFC /* Info.plist */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				312DCC78236820BF000D0BFC /* ViewController.swift in Sources */,
+				312A8A7F2368430800E020EE /* NextViewController.swift in Sources */,
 				312DCC74236820BF000D0BFC /* AppDelegate.swift in Sources */,
 				312DCC76236820BF000D0BFC /* SceneDelegate.swift in Sources */,
 			);
