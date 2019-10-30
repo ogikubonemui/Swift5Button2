@@ -20,7 +20,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="setting"/>
                                 <connections>
-                                    <segue destination="rDv-zl-fuA" kind="presentation" id="xOc-9u-e0E"/>
+                                    <action selector="tap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cdl-bT-VKR"/>
+                                    <segue destination="rDv-zl-fuA" kind="presentation" modalTransitionStyle="crossDissolve" id="xOc-9u-e0E"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="最初の画面" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sfb-fE-0lm">
@@ -51,9 +52,12 @@
                                 <rect key="frame" x="143" y="384" width="128" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="key"/>
+                                <connections>
+                                    <action selector="change:" destination="rDv-zl-fuA" eventType="touchUpInside" id="Wzy-e6-RA9"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="次の画面" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Diu-4F-2Jd">
-                                <rect key="frame" x="20" y="60" width="374" height="61"/>
+                                <rect key="frame" x="20" y="124" width="374" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <nil key="textColor"/>
@@ -64,6 +68,9 @@
                         <color key="tintColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="GWK-c7-QPl"/>
                     </view>
+                    <connections>
+                        <outlet property="changeLabel" destination="Diu-4F-2Jd" id="Ilh-hG-Ye8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tzr-fN-1gN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
